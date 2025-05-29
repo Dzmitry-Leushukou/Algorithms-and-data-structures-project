@@ -1,0 +1,11 @@
+﻿BaseClasses.lib(BST.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in 1cpp.obj
+BaseClasses.lib(BST.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in 1cpp.obj
+BaseClasses.lib(BST.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+BaseClasses.lib(FileService.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in 1cpp.obj
+BaseClasses.lib(FileService.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in 1cpp.obj
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+BaseClasses.lib(BST.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+BaseClasses.lib(FileService.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+BaseClasses.lib(BST.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+BaseClasses.lib(FileService.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReport
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Release\1cpp.exe : fatal error LNK1120: 2 unresolved externals
