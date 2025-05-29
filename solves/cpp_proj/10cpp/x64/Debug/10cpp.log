@@ -1,0 +1,3 @@
+﻿  10cpp.cpp
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\10cpp\10cpp.cpp(104,9): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+  10cpp.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Debug\10cpp.exe

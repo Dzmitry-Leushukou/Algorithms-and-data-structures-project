@@ -1,0 +1,3 @@
+﻿  9cpp.cpp
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\9cpp\9cpp.cpp(38,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  9cpp.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Debug\9cpp.exe

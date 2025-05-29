@@ -1,0 +1,10 @@
+﻿  12cpp.cpp
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(42,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(52,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(53,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(69,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(70,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(90,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(91,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\12cpp\12cpp.cpp(113,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  12cpp.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Debug\12cpp.exe
