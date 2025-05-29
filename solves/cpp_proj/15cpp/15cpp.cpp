@@ -1,20 +1,67 @@
-// 15cpp.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <vector>
+#include <cmath>
 
-int main()
-{
-    std::cout << "Hello World!\n";
+using namespace std;
+
+// Функция для проверки возможности арбитража
+bool hasArbitrage(vector<vector<double>>& rates, int n) {
+    // Создаем матрицу для логарифмов курсов (чтобы работать с суммами вместо произведений)
+    vector<vector<double>> dist(n, vector<double>(n, -INFINITY));
+
+    // Заполняем матрицу логарифмов курсов
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if (rates[i][j] > 0) {
+                dist[i][j] = log(rates[i][j]); // log(a[i,j]) для положительных курсов
+            }
+        }
+    }
+
+    // Алгоритм Флойда-Уоршалла для поиска положительного цикла
+    for (int k = 0; k < n; ++k) {
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (dist[i][k] != -INFINITY && dist[k][j] != -INFINITY) {
+                    if (dist[i][j] < dist[i][k] + dist[k][j]) {
+                        dist[i][j] = dist[i][k] + dist[k][j];
+                    }
+                }
+            }
+        }
+    }
+
+    // Проверяем диагональные элементы на положительность
+    for (int i = 0; i < n; ++i) {
+        if (dist[i][i] > 0) {
+            return true; // Найден цикл с произведением курсов > 1
+        }
+    }
+
+    return false;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+int main() {
+    int n;
+    cout << "Введите количество валют: ";
+    cin >> n;
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    // Ввод матрицы курсов
+    vector<vector<double>> rates(n, vector<double>(n));
+    cout << "Введите матрицу курсов обмена (" << n << "x" << n << "):\n";
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cin >> rates[i][j];
+        }
+    }
+
+    // Проверка на арбитраж
+    if (hasArbitrage(rates, n)) {
+        cout << "Арбитраж возможен\n";
+    }
+    else {
+        cout << "Арбитраж невозможен\n";
+    }
+
+    return 0;
+}

@@ -193,12 +193,12 @@ void solve(int n, int k)
 }
 int main()
 {
-    std::string filename = "..\\..\\..\\datasets\\12\\max.txt";
-    ofstream fout(filename);
+    //std::string filename = "..\\..\\..\\datasets\\12\\max.txt";
+    //ofstream fout(filename);
     int n = 10;
     int k = 13;
-    fout << n << '\n' << k;
-    fout.close();
+    //fout << n << '\n' << k;
+    //fout.close();
 
     auto start = std::chrono::high_resolution_clock::now();
     PROCESS_MEMORY_COUNTERS_EX pmc_start;
