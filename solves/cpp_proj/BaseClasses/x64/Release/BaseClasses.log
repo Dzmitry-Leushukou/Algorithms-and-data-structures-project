@@ -1,4 +1,0 @@
-﻿  BST.cpp
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\BaseClasses\BST.cpp(74,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  FileService.cpp
-  BaseClasses.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Release\BaseClasses.lib

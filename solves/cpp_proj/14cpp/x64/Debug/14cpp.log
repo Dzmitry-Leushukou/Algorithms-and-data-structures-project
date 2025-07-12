@@ -1,6 +1,0 @@
-﻿  14cpp.cpp
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\14cpp\14cpp.cpp(15,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\14cpp\14cpp.cpp(16,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\14cpp\14cpp.cpp(69,19): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\14cpp\14cpp.cpp(71,18): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
-  14cpp.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Debug\14cpp.exe

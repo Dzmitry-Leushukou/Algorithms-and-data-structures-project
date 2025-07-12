@@ -1,5 +1,0 @@
-﻿  11cpp.cpp
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\11cpp\11cpp.cpp(20,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\11cpp\11cpp.cpp(21,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\11cpp\11cpp.cpp(110,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  11cpp.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Debug\11cpp.exe

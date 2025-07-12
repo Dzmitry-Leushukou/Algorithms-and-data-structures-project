@@ -1,3 +1,0 @@
-﻿  13cpp.cpp
-D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\13cpp\13cpp.cpp(80,21): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  13cpp.vcxproj -> D:\Programming\Projects\Algorithms-and-data-structures-project\solves\cpp_proj\x64\Debug\13cpp.exe
